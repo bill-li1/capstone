@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <style>
+    .bg { fill: #1a1a2e; }
+    .text { fill: #e8e0d4; font-family: Georgia, 'Times New Roman', serif; font-size: 36px; font-weight: bold; letter-spacing: 1px; }
+    .roof { fill: none; stroke: #e8e0d4; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #2c3e50; }
+    }
+  </style>
+  <rect class="bg" width="128" height="128" rx="20" />
+  <polyline class="roof" points="32,48 64,28 96,48" />
+  <text class="text" x="64" y="90" text-anchor="middle">VMV</text>
+</svg>

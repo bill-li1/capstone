@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Victoria Meadows Village | Architecture Capstone",
   description:
-    "A sustainable mixed-use development designed to foster community, integrate nature, and redefine urban living through innovative architectural solutions.",
+    "VMV is a long-term care facility in Collingwood, Ontario. It integrates the historic 1890s Victoria Schoolhouse and is engineered for the occupant experience through healthy, beautiful, low-carbon, responsible design.",
   openGraph: {
     title: "Victoria Meadows Village",
     description: "Architecture Capstone Project 2024-2025",

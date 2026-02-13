@@ -9,7 +9,7 @@ const navItems = [
 
 export default function Footer() {
   return (
-    <footer className="bg-foreground text-white">
+    <footer id="contact" className="bg-foreground text-white">
       <div className="max-w-screen-2xl mx-auto px-6 md:px-10 lg:px-16 py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8">
           {/* Brand */}
@@ -18,8 +18,10 @@ export default function Footer() {
               Victoria Meadows Village
             </h2>
             <p className="text-white/60 max-w-md leading-relaxed">
-              A sustainable mixed-use development designed to enhance community
-              living through innovative architecture and thoughtful planning.
+              VMV is a long-term care facility in Collingwood, Ontario. It
+              integrates the historic 1890s Victoria Schoolhouse and is
+              engineered for the occupant experience through healthy, beautiful,
+              low-carbon, responsible design.
             </p>
           </div>
 
@@ -71,4 +73,3 @@ export default function Footer() {
     </footer>
   );
 }
-
